@@ -1,7 +1,11 @@
 package com.company;
 
 public class TA {
-    private String name;
+    private String fullName;
     private String email;
-    private LabHours leading;
+
+    public TA(String fullName, String email) {
+        this.fullName = fullName;
+        this.email = email;
+    }
 }
